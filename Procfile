@@ -1,1 +1,1 @@
-web: python manage.py migrate && gunicorn the_honey/the_honey.wsgi
+web: python manage.py migrate && gunicorn the-honey.wsgi
