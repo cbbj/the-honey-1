@@ -1,1 +1,1 @@
-web: gunicorn proj1.wsgi
+web: python manage.py migrate && gunicorn the_honey.wsgi
